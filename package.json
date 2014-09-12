@@ -1,0 +1,20 @@
+{
+	"name": "winstone-sql",
+	"version": "0.0.0",
+	"description": "SQL (mysql, postgresql, sqlite) transport",
+	"main": "index.js",
+	"dependencies": {
+		"knex": "0.6.x"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"sql",
+		"winston",
+		"sqlite",
+		"mysql"
+	],
+	"author": "wszerad <wszerad91@gmail.com>",
+	"license": "MIT"
+}
