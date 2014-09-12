@@ -1,14 +1,17 @@
 # SQL transport for winston
 
 For querying need database driver like:
+```
 $ npm install mysql
 $ npm install mariasql
 $ npm install pg
 $ npm install sqlite3
+```
 
 ## Options
 
-### Use knex.js so configuration look like: http://knexjs.org/#Installation-client
+### Useing knex.js so configuration look like: 
+## http://knexjs.org/#Installation-client
 
 ```js
 var mysql = {
@@ -38,10 +41,10 @@ winston.add(SQL, sqlite3)
 ```
 
 ### Other options:
- table - name of table in db, default logger
- label - like in other transports
- forceSync - clear database structure after start ( for testing mb)
- scheme - database scheme configured like there: http://knexjs.org/#Schema
+* table - name of table in db, default logger
+* label - like in other transports
+* forceSync - clear database structure after start ( for testing mb)
+* scheme - database scheme configured like there: http://knexjs.org/#Schema
  
  ```js
  //default scheme
