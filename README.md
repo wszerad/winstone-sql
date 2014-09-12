@@ -10,7 +10,7 @@ $ npm install sqlite3
 
 ## Options
 
-### Useing knex.js so configuration look like: 
+### Using knex.js so configuration look like: 
 #### http://knexjs.org/#Installation-client
 
 ```js
